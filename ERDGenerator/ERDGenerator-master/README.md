@@ -1,0 +1,3 @@
+# Entity-Relationship Diagram Generator
+
+I developed an Entity-Relationship Diagram (ERD) generator designed to streamline the creation of database schemas. This tool automates the generation of ERD visuals from database schema inputs, using algorithms to parse relationships and entities efficiently. By implementing this project, I enhanced my skills in data modeling, software architecture, and the practical application of algorithms in creating intuitive and useful software tools. This experience also deepened my understanding of database design principles and the graphical representation of complex data structures.
