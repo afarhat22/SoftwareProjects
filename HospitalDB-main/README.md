@@ -1,0 +1,3 @@
+# Hospital DB
+
+I designed and implemented a hospital database system complete with a user-friendly interface, using Python and SQLite. The system is structured to manage patient records, staff details, and medical services, facilitating efficient data retrieval and management. By incorporating Python, I developed a series of scripts to handle various database operations, such as inserting, updating, and querying data. This project not only honed my skills in database design and SQL queries but also in developing intuitive graphical user interfaces, enhancing my proficiency in Python programming and software development.
