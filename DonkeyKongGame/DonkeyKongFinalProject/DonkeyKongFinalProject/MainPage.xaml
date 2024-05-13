@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="DonkeyKongFinalProject.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DonkeyKongFinalProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:canvas="using:Microsoft.Graphics.Canvas.UI.Xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#FF171717">
+
+    <Grid x:Name="testDialog">
+        <canvas:CanvasAnimatedControl x:Name="canvas" Draw="Canvas_Draw" Update="Canvas_Update" Loaded="canvas_Loaded" BorderThickness="100,100,100,100" CreateResources="Canvas_CreateResources" />
+
+        <ContentDialog x:Name="DeathDialog"
+               Title="Game Over"
+               Content="You have died. What would you like to do?"
+               PrimaryButtonText="Try Again"
+               SecondaryButtonText="Main Menu"
+               PrimaryButtonClick="DeathDialog_TryAgainClick"
+               SecondaryButtonClick="DeathDialog_MainMenuClick" Background="#FF757272" Foreground="Black" BorderBrush="#33FFFFFF" FocusVisualPrimaryBrush="White" FontFamily="Book Antiqua" FontSize="12"/>
+
+        <ContentDialog x:Name="WinDialog"
+               Title="You Won"
+               Content="You have saved Princess Amogus, Congratulations"
+               PrimaryButtonText="Try Again"
+               SecondaryButtonText="Main Menu"
+               PrimaryButtonClick="DeathDialog_TryAgainClick"
+               SecondaryButtonClick="DeathDialog_MainMenuClick" Background="#FF757272" Foreground="Black" BorderBrush="#33FFFFFF" FocusVisualPrimaryBrush="White" FontFamily="Book Antiqua" FontSize="12"/>
+    </Grid>
+</Page>

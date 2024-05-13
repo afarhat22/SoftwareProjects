@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="DonkeyKongFinalProject.DirectionsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DonkeyKongFinalProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FF08011F">
+        <TextBlock x:Name="Directions_Title" HorizontalAlignment="Left" Margin="69,60,0,0" TextWrapping="Wrap" Text="Directions:" VerticalAlignment="Top" FontSize="60" Foreground="#FF0392FF" FontFamily="Javanese Text"/>
+        <TextBlock x:Name="Directions_Title_Copy" HorizontalAlignment="Left" Margin="69,169,0,0" TextWrapping="Wrap" Text="Keyboard: &quot;Left Arrow&quot;: Move Left, &quot;Right Arrow&quot;: Move Right, &quot;Space&quot;: Jump" VerticalAlignment="Top" FontSize="24" Foreground="White" FontFamily="Javanese Text" Width="838"/>
+        <TextBlock x:Name="Directions_Title_Copy1" HorizontalAlignment="Left" Margin="69,239,0,0" TextWrapping="Wrap" Text="Controller: &quot;Left Joystick&quot;: Move Left or Right, &quot;A Button&quot;: Jump" VerticalAlignment="Top" FontSize="24" Foreground="White" FontFamily="Javanese Text" Width="838"/>
+        <Button x:Name="goBackButton" Content="Go Back" Margin="56,413,0,0" VerticalAlignment="Top" Height="71" Width="155" BorderBrush="#FF000326" Background="{ThemeResource SystemControlForegroundAccentBrush}" FontFamily="Britannic Bold" FontSize="24" Click="playGameButton_Click"/>
+
+    </Grid>
+</Page>

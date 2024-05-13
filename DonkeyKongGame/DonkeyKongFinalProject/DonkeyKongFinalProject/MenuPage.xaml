@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="DonkeyKongFinalProject.MenuPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DonkeyKongFinalProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FF08011F">
+        <Button x:Name="playGameButton" Content="Play Game" Margin="0,229,0,0" VerticalAlignment="Top" Height="71" Width="155" HorizontalAlignment="Center" BorderBrush="#FF000326" Background="{ThemeResource SystemControlForegroundAccentBrush}" FontFamily="Britannic Bold" FontSize="24" Click="playGameButton_Click"/>
+        <Button x:Name="directionsButton" Content="Directions" Margin="0,330,0,0" VerticalAlignment="Top" Height="71" Width="155" HorizontalAlignment="Center" BorderBrush="#FF000326" Background="{ThemeResource SystemControlForegroundAccentBrush}" FontFamily="Britannic Bold" FontSize="24" Click="directionsButton_Click"/>
+        <TextBlock x:Name="titleText" HorizontalAlignment="Left" Margin="214,66,0,0" TextWrapping="Wrap" Text="Donkey Kong" VerticalAlignment="Top" Height="106" Width="570" FontFamily="Arial Black" FontSize="55" TextAlignment="Center" Foreground="#FF013A4D"/>
+        <TextBlock x:Name="titleText_Copy" HorizontalAlignment="Left" Margin="347,137,0,0" TextWrapping="Wrap" Text="Amongus Edition" VerticalAlignment="Top" Height="106" Width="570" FontFamily="Berlin Sans FB Demi" FontSize="24" TextAlignment="Center" Foreground="#FF606E73"/>
+        <Button x:Name="creditsButton" Content="Credits" Margin="0,430,0,0" VerticalAlignment="Top" Height="71" Width="155" HorizontalAlignment="Center" BorderBrush="#FF000326" Background="{ThemeResource SystemControlForegroundAccentBrush}" FontFamily="Britannic Bold" FontSize="24" Click="creditsButton_Click"/>
+
+    </Grid>
+</Page>
